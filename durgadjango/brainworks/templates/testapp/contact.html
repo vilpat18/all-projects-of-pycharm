@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href= "/static/css/contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+
+<div class="container" >
+<h1> Communicate With us  </h1><hr>
+
+    {%for Contacts in contact%}
+    <ul>
+        <li> Gmail ID:-{{Contacts.Gmail}}</li>
+        <li> Linkdin ID:-{{Contacts.Linkdin}}</li>
+        <li> Yahoo ID:-{{Contacts.Yahoo}}</li>
+        <li>Landline Number:-{{Contacts.landline}}</li>
+        <li> Mobile Number 1:-{{Contacts.mobile}}</li>
+        <li> Mobile Number 2:-{{Contacts.mobile2}}</li>
+    </ul>
+    <br>
+    {%endfor%}
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

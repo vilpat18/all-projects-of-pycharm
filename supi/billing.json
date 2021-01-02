@@ -1,0 +1,5 @@
+[{"customer_id": 101, "customer_name": "supriya", "reciept_number": 887799, "vehicle_type": "suzuki-dezire"},
+  {"customer_id": null, "customer_name": null, "reciept_number": null, "vehicle_type": null},
+  {"customer_id": null, "customer_name": null, "reciept_number": null, "vehicle_type": null},
+  {"customer_id": null, "customer_name": null, "reciept_number": null, "vehicle_type": null},
+  {"customer_id": "1", "customer_name": "vilas patil", "reciept_number": null, "vehicle_type": null}]

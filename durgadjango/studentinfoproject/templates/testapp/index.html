@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+<link rel="stylesheet" href= "/static/css/sinfo.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container" >
+<h1> Student Information </h1><hr>
+    {% if students %}
+    {%for Student in students%}
+    <h3> {{Student.name}} Information </h3><hr>
+    <ul>
+        <li>student RollNo:{{Student.rollnumber}}</li>
+        <li>student dob:{{Student.dob}}</li>
+        <li>student marks:{{Student.marks}}</li>
+        <li>student email:{{Student.email}}</li>
+        <li>student phone:{{Student.phone}}</li>
+        <li>student address:{{Student.address}}</li>
+    </ul>
+    <br>
+       {%endfor%}
+    {%else%}
+    <p>Students records are not available</p>
+    {%endif%}
+</div>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+table { background-color: #bde9ba; }
+th { background-color: #ffd78c; }
+
+body {
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-color: skyblue;
+}
+
+center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href= "/static/css/courses.css">
+</head>
+<hr>
+<h1> Available Courses </h1></hr>
+
+ {%for Courses in course%}
+    <hr>
+        <li> Python Full Stack:-{{Courses.python}}</li></hr>
+
+          <hr><li> SAP :-{{Courses.sap}}</li></hr>
+
+         <hr> <li> MATLAB DEVLOPER:-{{Courses.matlab}}</li></hr>
+
+         <hr> <li> DBA:-{{Courses.dba}}</li></hr>
+
+        <hr>  <li> PL/SQL:-{{Courses.plsql}}</li></hr>
+
+         <hr> <li> RPA:-{{Courses.rpa}}</li></hr>
+
+         <hr> <li> SALES FORCE:-{{Courses.salesforce}}</li></hr>
+    </ul>
+    <br>
+    {%endfor%}
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

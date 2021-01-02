@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<link rel="stylesheet" href= "/static/css/aboutus.css">
+</head>
+<body>
+<div class="container" >
+<h1> About Us  </h1><hr>
+
+    {%for About in about%}
+    <ul>
+        <li> About Brainworks:-{{About.info}}</li>
+
+    </ul>
+    <br>
+    {%endfor%}
+
+</div>
+</body>
+</html>

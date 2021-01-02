@@ -1,0 +1,55 @@
+> regular expression 
+
+select * from 'table name'
+where (column name) regexp ''
+--> ^ beginning
+--> $ at the end 
+--> | logical or 
+--> [a-z]e --> range
+--> [hnjk]e --> perticular char before the e
+
+> method to find out missing/null 
+
+--> select * from table name
+    where (culumn name) is null
+
+> to sort the table 
+
+--> select * from table_name
+    order by column_name desc/asc
+
+> limit cluase
+ 
+--> select * from table_name
+     limit 10
+
+
+count(): Returns the total number of rows of a query.
+
+filter(): Filters the query by applying a criteria.
+
+delete(): Removes from the database the rows matched by a query.
+
+distinct(): Applies a distinct statement to a query.
+
+exists(): Adds an exists operator to a subquery.
+
+first(): Returns the first row in a query.
+
+get(): Returns the row referenced by the primary key parameter passed as argument.
+
+join(): Creates a SQL join in a query.
+
+limit(): Limits the number of rows returned by a query.
+
+order_by(): Sets an order in the rows returned by a query
+
+
+flask sqlalchemy link
+-->  https://flask-sqlalchemy.palletsprojects.com/en/2.x/api/#models
+
+
+              
+
+
+

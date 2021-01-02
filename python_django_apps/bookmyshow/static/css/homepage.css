@@ -1,0 +1,13 @@
+body. jumbotron{
+
+
+ background: url("/static/images/back.jpg");
+  background-repeat: no-repeat;
+  text-align : left
+color : yellow;
+    }
+
+
+body .jumbotron{
+
+}

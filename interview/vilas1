@@ -1,0 +1,4 @@
+One must keep in mind that the mode argument is not mandatory.
+If not passed, then Python will assume it to be “ r ” by default.
+Let’s look at this program and try to analyze how the read mode works:
+
